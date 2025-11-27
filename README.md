@@ -1,29 +1,23 @@
 # YouTube-Playlist-Link-Extractor
-YouTube Playlist Link Extractor
+
 
 A simple Python GUI application that allows you to extract all video URLs from a YouTube playlist. You can choose to format the links as standard URLs (watch?v=) or embed URLs (/embed/) and save the output to either a Text file (.txt) or a CSV file (.csv).
 
-Features
+**Features**
 
-GUI Interface: Easy-to-use graphical interface built with Tkinter.
+.GUI Interface: Easy-to-use graphical interface built with Tkinter.
+.Playlist Extraction: extract all videos from a public or unlisted YouTube playlist.
+.Single Video Support: Works with single video links as well.
+.Link Formatting: Choose between Standard (https://www.youtube.com/watch?v=ID) or Embed (https://www.youtube.com/embed/ID) formats.
+.Export Options: Save your list as a simple Text file or an Excel-compatible CSV file (UTF-8 with BOM support).
+.Threaded Processing: The interface remains responsive while fetching data.
 
-Playlist Extraction: extract all videos from a public or unlisted YouTube playlist.
+**Prerequisites**
 
-Single Video Support: Works with single video links as well.
+.Python 3.6+: Make sure Python is installed on your system.
+.Internet Connection: Required to fetch playlist data from YouTube.
 
-Link Formatting: Choose between Standard (https://www.youtube.com/watch?v=ID) or Embed (https://www.youtube.com/embed/ID) formats.
-
-Export Options: Save your list as a simple Text file or an Excel-compatible CSV file (UTF-8 with BOM support).
-
-Threaded Processing: The interface remains responsive while fetching data.
-
-Prerequisites
-
-Python 3.6+: Make sure Python is installed on your system.
-
-Internet Connection: Required to fetch playlist data from YouTube.
-
-Installation
+**Installation**
 
 Clone or Download this repository (or save the Youtubelist_extractor.py file).
 
