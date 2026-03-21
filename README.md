@@ -62,10 +62,11 @@
    
 ## 🔧 Troubleshooting
 
-** . ❌ "No videos found"**: Ensure the playlist is set to **Public** or **Unlisted** (private playlists cannot be accessed).
-** . ⏸️ Script freezes**: Threading prevents UI lockups, but slow internet may delay log updates—be patient!
-** . 📝 CSV character issues**: The script uses `utf-8-sig` encoding for Excel compatibility. If problems persist, import the CSV via Excel’s "Data > From Text/CSV" option.
+**-  ❌ "No videos found"**: Ensure the playlist is set to **Public** or **Unlisted** (private playlists cannot be accessed).
+**-  ⏸️ Script freezes**: Threading prevents UI lockups, but slow internet may delay log updates—be patient!
+**-  📝 CSV character issues**: The script uses `utf-8-sig` encoding for Excel compatibility. If problems persist, import the CSV via Excel’s "Data > From Text/CSV" option.
 
 
 ## 📸 Screenshot
+
 <img width="752" height="790" alt="image" src="https://github.com/user-attachments/assets/d5425575-b7d1-46f7-8842-4ca70f26f955" />
